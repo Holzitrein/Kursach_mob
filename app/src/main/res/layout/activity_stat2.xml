@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stat2Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a7eabd56afffe3f2d2c0c68780da4f72" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Прогулка на воздухе – лучшее средство укрепления здоровья, профилактики простудных заболеваний, повышения иммунитета, является самым простым и верным средством закаливания ребенка. Благодаря прогулке совершенствуется физическое развитие ребенка. Естественно, каждая прогулка сопровождается двигательной активностью малыша, во время подвижных игр происходит тренировка различных групп мышц, развивается координация движений, а также быстрота реакции, сила и выносливость. Прогулка также является отличным средством профилактики нарушения зрения у детей. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
